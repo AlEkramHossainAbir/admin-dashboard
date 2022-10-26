@@ -82,3 +82,6 @@ https://nivo.rocks/pie/
 font used
 
 source sans pro
+
+extensions
+Tailwind Shades
