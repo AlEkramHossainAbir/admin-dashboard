@@ -15,6 +15,7 @@ import FAQ from "./scenes/FAQ";
 import Geography from "./scenes/Geography";
 import Calender from "./scenes/Calender";
 import { ColorModeContext, useMode } from "./theme";
+import SidebarView from "./scenes/global/Sidebar";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -23,6 +24,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <div className="App">
+          <SidebarView />
           <div className="content">
             <Topbar />
             <Routes>

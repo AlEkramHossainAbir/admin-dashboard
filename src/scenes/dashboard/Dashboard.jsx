@@ -3,7 +3,7 @@ import Sidebar from "../global/Sidebar";
 const Dashboard = () => {
   return (
     <div>
-      <Sidebar />
+      <h1></h1>
     </div>
   );
 };
